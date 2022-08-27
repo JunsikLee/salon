@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
@@ -51,8 +53,8 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html"></a></li>
-                                    </ui>
-                                    <!--
+                                        </ui>
+                                        <!--
                                     <ul id="navigation">
                                         <li><a class="active" href="index.html">home</a></li>
                                         <li><a href="Schedule.html">Schedule</a></li>
@@ -125,7 +127,7 @@
                             <span>2022-10-20(월)</span>
                         </div>
                     </div>
-                    
+
                     <div class="col-xl-5 col-md-12 col-lg-5">
                         <span id="clock"></span>
                     </div>
@@ -147,7 +149,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
-                    <div class="about_thumb">
+                    <div class="about_thumb drop-shadow-2xl">
                         <img src="img/meet/couple-g02e2add5d_1920.jpg" alt="">
                     </div>
                 </div>
@@ -157,23 +159,28 @@
                             <!--
                             <span class="sub_heading">환영합니다.</span>
                             -->
-                            <h3>자만추 도대체 그 먼데?<br>
-                            </h3>
+                            <h3>자만추 도대체 그 먼데?</h3>
                         </div>
+                        <!--
                         <p>
-                            🐶 주제 : 일상<br>
-                            🐱 시간 : 180<br>
-                            🐹 비용 : 5만원
+                            내용
                         </p>
+                        -->
+                        <div>
+                            <ul class="list-inside py-8 text-lg">
+                                <li><i class="fa-regular fa-comment"></i> 주제 : 일상</li>
+                                <li><i class="fa-regular fa-clock"></i> 시간 : 180</li>
+                                <li><i class="fa-regular fa-credit-card"></i> 비용 : 5만원</li>
+                            </ul>
+                        </div>
                         <a href="#" class="boxed-btn-red">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- about_area_end -->
-
-
     <div class="event_area plus_padding">
         <!--
         <h1 class="vr_text d-none d-lg-block">Program</h1>
@@ -183,7 +190,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-lg-3">
                         <div class="date">
-                            <h3>2022-10-20(월) 10:00</h3>
+                            <h3>2022-10-20(월) <br> 10:00</h3>
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-9">
@@ -243,11 +250,11 @@
         <div class="circle_ball d-none d-lg-block">
             <img src="img/banner/footer_ball.png" alt="">
         </div>
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <!--
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <!--
                             <div class="footer_widget">
                                 <h3 class="footer_title">
                                         Follow Us
@@ -261,9 +268,9 @@
     
                             </div>
                             -->
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <!--
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <!--
                             <div class="footer_widget">
                                 <h3 class="footer_title">
                                         Links
@@ -275,37 +282,40 @@
                                 </ul>
                             </div>
                             -->
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                        Venue
-                                </h3>
-                                <p>
-                                    대전 서구 대덕대로 198 프뢰벨빌딩 7층 <br>
-                                    tset@naver.com <br>
-                                    010-1004-8888
-                                </p>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="copy-right_text">
-                <div class="container">
-                    <div class="footer_border"></div>
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <p class="copy_right text-center">
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Produce
+                            </h3>
+                            <p>
+                                대전 서구 대덕대로 198 프뢰벨빌딩 7층 <br>
+                                tset@naver.com <br>
+                                010-1004-8888
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- footer_end -->
 
 
